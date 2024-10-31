@@ -1,14 +1,11 @@
 package com.kors.springstudents.model;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDate;
 
-@Getter
-@Setter
-@NoArgsConstructor
+@Data
+@Builder
 public class Student {
     private String firstName;
     private String lastName;
